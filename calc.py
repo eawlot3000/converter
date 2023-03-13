@@ -47,10 +47,10 @@ if __name__ == '__main__':
     print("Usage: python3 calc.py [OPERATOR] [BASE] [DATA1] [DATA2] \ne.g. python3 calc.py add 2 100 110011: add 2 binary numbers 100 and 110011")
     sys.exit(0)
 
-  if type(arg2) != type(int()):
+  if arg2 not in ["2", "8", "16"]:
     print('heyy ur almost there! please use an integer(2 for binary, 8 for octal, 16 for hex)')
     sys.exit(0)
-  if arg1 == "add":
+  elif arg1 == "add":
     print(add(arg3, arg4, int(arg2)))
   elif arg1 == "subtract":
     print(subtract(arg3, arg4, int(arg2)))
