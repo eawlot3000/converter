@@ -6,7 +6,9 @@
 
 #### usage of converting:
 ```
-python3 convert.py [FROM] [TO] [DATA] (e.g. python3 convert.py b d 100110011)
+go run convert.py [FROM] [TO] [DATA] (e.g. python3 convert.py b d 100110011)
+OR
+go build yourself
 ```
 
 #### usage of calculating:
