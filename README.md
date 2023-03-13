@@ -6,7 +6,7 @@
 
 #### usage of converting:
 ```
-go run convert.py [FROM] [TO] [DATA] (e.g. python3 convert.py b d 100110011)
+go run convert.go [FROM] [TO] [DATA] (e.g. go run convert.go b d 100110011)
 OR
 go build yourself
 ```
