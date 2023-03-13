@@ -2,7 +2,6 @@
 
 ### note: this code is not using any built-in function i.e. bin(), oct(), hex() to convert for better understanding the algorithm of conversion processes itself
 ----
-<br>
 
 
 ##### usage of converting:
