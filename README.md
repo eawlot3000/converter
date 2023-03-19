@@ -8,7 +8,7 @@
 ```
 go run convert.go [FROM] [TO] [DATA] (e.g. go run convert.go b d 100110011)
 OR
-go build yourself
+go build convert.go && ./convert.go
 ```
 
 #### usage of calculating:
